@@ -1,7 +1,7 @@
 team9
 
 
-Restaraunt API
+Restaurant API
 
 1) Listing of all resteraunts with reviews, distance, and brief description (potentially)
 
