@@ -19,6 +19,7 @@ module.exports = (env, args) => {
       https: false,
       before(app) {
         app.use((req, res, next) => {
+            //This will go away because we will use vue-router
           if (/\/\d+-\d+-\d+/.test(req.url)) {
             req.url = '/';
           }
