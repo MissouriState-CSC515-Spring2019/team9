@@ -1,9 +1,9 @@
 team9
 
 
-Restaurant API
+Restaurants API
 
-1) Listing of all resteraunts with reviews, distance, and brief description (potentially)
+1) Listing of all restaurants with reviews, distance, and brief description (potentially)
 
 2) In depth description with Google API call
 
