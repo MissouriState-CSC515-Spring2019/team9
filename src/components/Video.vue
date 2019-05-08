@@ -1,3 +1,4 @@
+
 <template lang="html">
   <div id="videoDiv">
     <nav class="navbar navbar-default">

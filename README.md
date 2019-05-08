@@ -1,10 +1,10 @@
 team9
 
 
-Restaurants API
+Random Funny Cats API
 
-1) Listing of all restaurants with reviews, distance, and brief description (potentially)
+1) Menu where the user can select either the picture or video page
 
-2) In depth description with Google API call
+2) Cat picture page that calls TheCatAPI for a random picture
 
-3) Review posting / Larger Google API map
+3) Cat video page that plays an embedded funny cat compilation youtube video
