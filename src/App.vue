@@ -2,9 +2,14 @@
   <div id="app">
     <header>
       <!--<h1>Vue.js SPA</h1>-->
-    </header>
+    </header> 
+      <div>
+        <img src="src/Images/Bannertxtwhite.png" alt="Banner" style="max-width:100%; height:auto;" ></img>
+      </div>
     <Nav></Nav>
     <main>
+     
+
       <div class="content">
         <router-view></router-view>
       </div>
@@ -23,5 +28,5 @@
 </script>
 
 <style>
-body{background: black}
+  body{background: #24374A}
 </style>
