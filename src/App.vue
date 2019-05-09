@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <header>
-      <!--<h1>Vue.js SPA</h1>-->
-    </header> 
+      <!--<h1>Hilarious Cats</h1>-->
+    </header>
       <div>
         <img src="src/Images/Bannertxtwhite.png" alt="Banner" style="max-width:100%; height:auto; border-style: solid none solid none; border-color: #296AAB; background:#3D5C7C" ></img>
       </div>
