@@ -6,6 +6,7 @@ import App from './App.vue'
 import Home from './components/Home.vue'
 import Video from './components/Video.vue'
 import Randomcat from './components/Randomcat.vue'
+import Notfound from './components/Notfound.vue'
 
 Vue.use(Router)
 Vue.use(Meta)
@@ -21,13 +22,20 @@ const router = new Router({
      path: '/video',
      name:'video',
      component: Video,
-     //props: true,
    },
    {
      path: '/randomcat',
      name:'randomcat',
      component: Randomcat,
-     //props: true,
+   },
+   {
+     path: '/404',
+     name:'404',
+     component: Notfound,
+   },
+   {
+     path: '*',
+     redirect: '/404',
    },
  ],
   mode: 'history'
