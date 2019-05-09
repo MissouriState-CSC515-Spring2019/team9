@@ -3,18 +3,8 @@
     <header>
       <!--<h1>Vue.js SPA</h1>-->
     </header>
+    <Nav></Nav>
     <main>
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="/">Home</a>
-        </div>
-          <ul class="nav navbar-nav">
-          <li><a href="/randomcat">Random Cat</a></li>
-          <li><a href="/video">Cat vids</a></li>
-          </ul>
-        </div>
-    </nav>
       <div class="content">
         <router-view></router-view>
       </div>
@@ -22,6 +12,15 @@
   </div>
 </template>
 
+<script>
+  import Nav from './components/Nav.vue'
+  export default{
+    name: 'app',
+    components:{
+      'Nav':Nav
+    }
+  }
+</script>
 
 <style>
 body{background: black}
