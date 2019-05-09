@@ -9,5 +9,4 @@
 </template>
 
 <style>
-  div{background: black}
 </style>
