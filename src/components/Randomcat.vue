@@ -1,5 +1,7 @@
 <template lang="html">
-  <img :src="image"></img>
+  <img :src="image" style="max-width:80%; height:auto;
+       display:block; margin-left:auto; margin-right:auto;
+       border: 3px solid #296AAB; padding: 20px;"></img>
 
 </template>
 
