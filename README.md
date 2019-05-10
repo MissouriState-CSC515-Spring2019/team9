@@ -11,7 +11,7 @@
       
 ## Pages:
   **Home page:** Displays some general information to the user, including how to use the site.
-                  Located at "/"
+  Located at "/"
                   
   **Video page:** Contains funny YouTube videos of cats.
                   Located at "/video"
