@@ -11,17 +11,14 @@
       
 ## Pages:
   **Home page:** Displays some general information to the user, including how to use the site.
-  
   Located at "/"
                   
   **Video page:** Contains funny YouTube videos of cats.
-                  
-  Located at "/video"
+                  Located at "/video"
                   
   **Random Cat page:**  Displays a random picture of a cat retrieved with the Cat API. 
                         Refreshing the page generates a new random kitty.
-                        
-  Located at "/randomcat"
+                        Located at "/randomcat"
                         
   **404 page:** Displays a 404 message to the user.
                 Located at "/404" or any unrecognized URL
