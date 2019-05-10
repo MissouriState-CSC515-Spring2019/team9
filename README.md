@@ -4,7 +4,7 @@
 **Authors**: Timmothy Lane, John Guinn, Benjamin O'Neal, Hannah Towle, & Alex Shannon
 
 ## How to run the project:
-##  From the command line:
+###  From the command line:
       *npm install
       *npm start
  **NOTE:** Due to various factors, the initial load of this website may be a bit slow, but performance speeds up significantly after the inital load.
