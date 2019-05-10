@@ -1,10 +1,26 @@
-team9
+# team9
+
+# Random Funny Cats Website
+**Authors**: Timmothy Lane, John Guinn, Benjamin O'Neal, Hannah Towle, & Alex Shannon
+
+## How to run the project:
+##  From the command line:
+      *npm install
+      *npm start
+ **NOTE:** Due to various factors, the initial load of this website may be a bit slow, but performance speeds up significantly after the inital load.
+      
+## Pages:
+  **Home page:** Displays some general information to the user, including how to use the site.
+                  Located at "/"
+                  
+  **Video page:** Contains funny YouTube videos of cats.
+                  Located at "/video"
+                  
+  **Random Cat page:**  Displays a random picture of a cat retrieved with the Cat API. 
+                        Refreshing the page generates a new random kitty.
+                        Located at "/randomcat"
+                        
+  **404 page:** Displays a 404 message to the user.
+                Located at "/404" or any unrecognized URL
 
 
-Random Funny Cats API
-
-1) Menu where the user can select either the picture or video page
-
-2) Cat picture page that calls TheCatAPI for a random picture
-
-3) Cat video page that plays an embedded funny cat compilation youtube video
