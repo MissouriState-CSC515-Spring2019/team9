@@ -1,4 +1,4 @@
-# team9
+# Team 9
 
 # Random Funny Cats Website
 **Authors**: Timmothy Lane, John Guinn, Benjamin O'Neal, Hannah Towle, & Alex Shannon
