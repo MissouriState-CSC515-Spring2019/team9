@@ -38,6 +38,13 @@ const router = new Router({
      redirect: '/404',
    },
  ],
+ scrollBehavior (to, from, savedPosition) {
+  if (savedPosition) {
+    return savedPosition
+  } else {
+    return { x: 0, y: 25 }
+    }
+  },
   mode: 'history'
 })
 
