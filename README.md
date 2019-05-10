@@ -26,6 +26,8 @@
 
 ## Navigation:
 The navigation bar at the top of the screen allows the user to navigate to every page other than the 404 page.
+
 These pages can additionally be reached by extending the URL with '/video' or '/randomcat' (the home page is the default).
+
 The 404 page can be reached by extending the URL with '/404' or any unrecognized url extension ('/whereAmI' for example).
 
