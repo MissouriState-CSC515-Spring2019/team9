@@ -31,3 +31,6 @@ These pages can additionally be reached by extending the URL with '/video' or '/
 
 The 404 page can be reached by extending the URL with '/404' or any unrecognized url extension ('/whereAmI' for example).
 
+## Testing:
+To test, run:
+  *npm run test
